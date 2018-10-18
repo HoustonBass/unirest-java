@@ -1,20 +1,10 @@
 language: java
-
-matrix:
-  include:
-    - addons:
-        apt:
-          packages:
-            - openjdk-6-jdk
-            - openjdk-7-jdk
-      jdk: 
-        - openjdk6
-        - openjdk7
-      
-
+     
 jdk:
-  - oraclejdk7
+  - oraclejdk9
   - oraclejdk8
-
+  - openjdk9
+  - openjdk8
+  
 os:
   - linux
